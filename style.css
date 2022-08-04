@@ -1,0 +1,511 @@
+:root {
+	--Cyan: hsl(180, 66%, 49%);
+	--Dark-Violet: hsl(257, 27%, 26%);
+
+	--Red: hsl(0, 87%, 67%);
+
+	--Gray: hsl(0, 0%, 75%);
+	--Grayish-Violet: hsl(257, 7%, 63%);
+	--Very-Dark-Blue: hsl(255, 11%, 22%);
+	--Very-Dark-Violet: hsl(260, 8%, 14%);
+
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html, body {
+	overflow: hidden;
+	overflow-x: hidden; overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+}
+
+p, article {
+	font-size: 18px;
+}
+
+
+/*----------Position-----------*/
+nav {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.burger {
+	padding-top: 2px;
+}
+
+.burger img {
+	width: 30px;
+	height: 25px;
+}
+
+.ul-sign {
+	text-align: center;
+}
+
+.ul-sign button {
+	margin-left: 25px;
+	width: 250px;
+	height: 45px;
+	padding-bottom: 3px;
+}
+
+.ul-nav {
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+.ul-nav ul {
+	margin-top: 20px;
+}
+
+.sign-section {
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.sign-section button {
+	margin-top: 10px;
+}
+
+
+.pp-Working {
+	margin-top: 20px;
+	padding-right: 5px;
+	margin-bottom: 40px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+.moreThanDescription {
+	text-align: center;
+	margin-bottom: 120px;
+	padding: 0px 30px;
+}
+
+.moreThanDescription h2 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.moreThanDescription p {
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.Short-Link {
+	position: relative;
+	bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.statistics {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.statistics-details{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.statistics .Advanced-Stats {
+	margin-top: -20px;
+	margin-bottom: 80px;
+	padding: 0px 65px;
+
+}
+
+.statistics .statistics-details {
+	margin-bottom: 85px;
+	padding-bottom: 40px;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.statistics .statistics-details .logo-details {
+	position: relative;
+	bottom: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.statistics .statistics-details .logo-details img {
+	padding-top: 15px;
+
+}
+
+.statistics-details h3 {
+	margin-top: -10px;
+}
+
+.result_url {
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	margin-top: -50px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 100px;
+}
+
+.show {
+	display: none;
+}
+
+.Error-Span {
+	
+}
+
+
+.original-p, #short_url {
+	padding-left: 20px;
+}
+
+.copy-btn {
+	margin-left: 20px;
+	margin-right: 60px;
+}
+
+.original-p {
+	padding-bottom: 5px;
+	border-bottom: 1px solid var(--Gray);
+}
+
+.GetStarted-Boost {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.footer-div img {
+	margin-bottom: 5px;
+}
+
+.footer-div h4 {
+	padding-left: 5px;
+}
+
+.footer-div ul li {
+	margin-right: 40px;
+}
+
+.socialM-logos-footer {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+/*---------Visual-----------*/
+.ul-nav ul, .sign-section ul {
+	list-style: none;
+	font-weight: 800;
+}
+
+.ul-nav .resources {
+	padding-bottom: 30px;
+	border-bottom: 1px solid var(--Grayish-Violet);
+}
+
+.ul-sign {
+	color: white;
+	border-radius: 10px;
+}
+
+.ul-sign button {
+	border-radius: 20px;
+	border: none;
+	background-color: var(--Cyan);
+	color: white;
+	font-weight: 700;
+
+}
+
+.pp-Working img {
+	height: 330px;
+
+}
+
+.moreThanDescription p {
+	color: var(--Grayish-Violet);
+	font-weight: bold;
+
+}
+
+.moreThanDescription button {
+	border-radius: 25px;
+	border: none;
+	background-color: var(--Cyan);
+	color: white;
+	font-weight: 700;
+	height: 50px;
+	width: 200px;
+}
+
+.Short-Link {
+	background-color: var(--Dark-Violet);
+	background-image: url(./images/bg-shorten-mobile.svg);
+	background-repeat: no-repeat;
+	background-position: right -10px;
+	border-radius: 10px;
+}
+
+.Short-Link input, button {
+	width: 88%;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.Short-Link input {
+	padding-left: 15px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.input-border {
+	border: none;
+}
+
+.place-color::placeholder {
+	color: var(--Red);
+}
+
+.input-shorten {
+	border-color: var(--Red);
+}
+
+.Error-Span {
+	color: var(--Red);
+}
+
+.Short-Link button {
+	border: none;
+	margin-top: 15px;
+	background-color: var(--Cyan);
+	color: white;
+	font-weight: 700;
+
+}
+
+.result_url {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.copy-btn {
+	text-align: center;
+	border-radius: 10px;
+	border: none;
+	background-color: var(--Cyan);
+	color: white;
+	font-weight: 700;
+	height: 40px;
+	width: 89%
+}
+
+#short_url {
+	color: var(--Cyan);
+}
+
+.statistics {
+	background-color: #efefef;
+
+}
+
+.statistics article {
+	color: var(--Grayish-Violet);
+}
+
+.statistics-details {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.statistics-details .logo-details {
+	width: 80px;
+	height: 80px;
+	background-color: var(--Dark-Violet);
+	border-radius: 40px;
+
+}
+
+.line {
+	margin-left: 49%;
+	height: 650px;
+	width: 10px;
+	background-color: var(--Cyan);
+	position: absolute;
+}
+
+.GetStarted-Boost {
+	margin-left: 0;
+	margin-right: 0;
+	background-color: var(--Dark-Violet);
+	background-image: url(./images/bg-boost-mobile.svg);
+	background-repeat: no-repeat;
+}
+
+.GetStarted-Boost h2 {
+	color: white;
+	font-weight: bold;
+}
+
+.GetStarted-Boost button {
+    border-radius: 25px;
+    border: none;
+    background-color: var(--Cyan);
+    color: white;
+    font-weight: 700;
+    height: 50px;
+    width: 200px;
+}
+
+.footer-div {
+	background-color: var(--Very-Dark-Violet);
+}
+
+.footer-div img {
+	
+}
+
+.footer-div h4 {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.footer-div ul {
+	list-style: none;
+	color: var(--Gray);
+	font-weight: bold;
+}
+
+.footer-div ul li a {
+	text-decoration: none;
+	color: var(--Gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Burger*/
+.burger {
+	z-index: 10;
+	position: relative;
+}
+
+.ul-sign {
+	background-color: var(--Dark-Violet);
+	width: 300px;
+    height: 20rem;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
+    position: absolute;
+    top: 85px;
+    right: calc(50% - 150px);
+}
+
+.ul-sign ul li, button {
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+.ul-sign .SignUp {
+	background-color: var(--Cyan);
+}
+
+.active {
+	transform: translate(-400px);
+}

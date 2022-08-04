@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./style2.css" media="(min-width: 1024px)">
+	<title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<section class="Logo">
+				<img src="./images/logo.svg">
+			</section>
+
+			<div class="burger">
+				<img src="./images/icon-menu.svg" id="burgerimg">
+			</div>
+			<div class="ul-sign active" id="burger-in">
+				<section class="ul-nav">
+					<ul>
+						<li>Features</li>
+					</ul>
+					<ul>
+						<li>Pricing</li>
+					</ul>
+					<ul >
+						<li class="resources">Resources</li>
+					</ul>
+				</section>
+
+				<section class="sign-section">
+					<ul class="login-ul">
+						<li>Login</li>
+					</ul>
+					<button class="sign-btn">Sign Up</button>
+				</section>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<!-- Get Started  -->
+		<div class="GetStarted">
+			<section class="pp-Working">
+				<img src="./images/illustration-working.svg">
+			</section>
+
+			<section class="moreThanDescription">
+				<h1>More than just shorter links</h1>
+
+				<p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+
+				<button class="Get-Started-btn">Get Started</button>
+			</section>
+		</div>
+
+			<!-- Short-Link -->
+
+		
+				<!-- Statistics -->
+
+		<div class="statistics">
+			<div class="Short-Link">
+			<input class="input-shorten input-border" id="Shorting__link" type="text" placeholder="Shorten a link here...">
+			<span class="Error-Span" id="Span-Error"></span>
+			<button onclick="shorten()" class="shorten-btn">Shorten It!</button>
+		</div>
+
+
+		<section class="result_url show" id="show-url">
+			<p class="original-p" id="original_link"></p>
+			<p id="short_url"></p>
+			<button class="copy-btn" id="copiar" onclick="copiartxt()">Copy</button>
+			
+		</section>
+			<section class="Advanced-Stats">
+				<h2>Advanced Statistics</h2>
+
+				<article>
+					Track how your links are performing across the web with our advanced statistics dashboard.
+				</article>
+			</section>
+			<section class="line"></section>
+
+			<div class="statistics-details-cont">
+			<section class="statistics-details">
+				<section class="logo-details">
+					<img src="./images/icon-brand-recognition.svg">
+				</section>
+
+				<h3>Brand Recognition</h3>
+
+				<article>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</article>
+			</section>
+
+			
+
+			<section class="statistics-details N2">
+				<section class="logo-details">
+					<img src="./images/icon-detailed-records.svg">
+				</section>
+
+				<h3>Detailed Records</h3>
+
+				<article>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</article>
+			</section>
+
+			<section class="statistics-details N3">
+				<section class="logo-details">
+					<img src="./images/icon-fully-customizable.svg">
+				</section>
+
+				<h3>Fully Customizable</h3>
+			
+
+				<article>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</article>
+			</section>
+			</div>
+		</div>
+
+				<!-- Get Started Button -->
+		<div class="GetStarted-Boost">
+			<h2>Boost your links today</h2>
+
+			<button class="Get-Started-btn">Get Started</button>
+		</div>
+	</main>
+					<!-- Footer -->
+	<div class="footer-div">
+		<footer>
+			<section class="img-section">
+				<img src="./images/logo-footer.svg">
+			</section>
+
+			<section class="footer-sections">
+				<h4>Features</h4>
+
+				<ul>
+					<li><a href="#">Link Shortening</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Branded Links</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Analytics</a></li>
+				</ul>
+			</section>
+
+			<section class="footer-sections">
+				<h4>Resources</h4>
+
+				<ul>
+					<li><a href="#">Blog</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Developers</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Supports</a></li>
+				</ul>
+			</section>
+
+			<section class="footer-sections">
+				<h4>Company</h4>
+
+				<ul>
+					<li><a href="#">About</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Our Team</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Careers</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Contacs</a></li>
+				</ul>
+			</section>
+
+			<section class="socialM-logos-footer">
+				<a href="#"><img src="./images/icon-facebook.svg" alt="Icon-Facebook"></a>
+
+				<a href="#"><img src="./images/icon-twitter.svg" alt="Icon-Twitter"></a>
+
+				<a href="#"><img src="./images/icon-pinterest.svg" alt="Icon-Pinterest"></a>
+
+				<a href="#"><img src="./images/icon-instagram.svg" alt="Icon-Instagram"></a>
+				
+			</section>
+		</footer>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+</body>
+</html>
